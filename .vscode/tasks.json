@@ -15,17 +15,18 @@
                 "$eslint-compact"
             ]
         },
-        {
-            "label": "c",
-            "type": "shell",
-            "command": "cd bin && gcc ­-fopenmp -o \"${fileBasenameNoExtension}.o\" ../\"${relativeFile}\" && ./\"${fileBasenameNoExtension}.o\"",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": [
-                "$eslint-compact"
-            ]
-        }
+
+        // {
+        //     "label": "c",
+        //     "type": "shell",
+        //     "command": "cd bin && gcc ­-fopenmp -o \"${fileBasenameNoExtension}.o\" ../\"${relativeFile}\" && ./\"${fileBasenameNoExtension}.o\"",
+        //     "group": {
+        //         "kind": "build",
+        //         "isDefault": true
+        //     },
+        //     "problemMatcher": [
+        //         "$eslint-compact"
+        //     ]
+        // }
     ]
 }
